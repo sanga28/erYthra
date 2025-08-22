@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erythra - Your Blood. Their Lifeline.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background: #d00000;
+      color: white;
+      padding: 10px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe5e5;
+    }
+
+    section.hero {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #d00000;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+
+    .btn {
+      background: #d00000;
+      color: white;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #a30000;
+    }
+
+    section.features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+      background: #f9f9f9;
+    }
+
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      max-width: 300px;
+      flex: 1 1 250px;
+      text-align: center;
+    }
+
+    .feature h3 {
+      color: #d00000;
+    }
+
+    section.about, section.contact {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .about-container {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .about h2, .contact h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #d00000;
+    }
+
+    .about p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .contact a {
+      color: #d00000;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #d00000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="ERYTHRA LOGO.png" alt="Erythra Logo">
+      <h1>ERYTHRA</h1>
+    </div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h2>Find Blood When It Matters Most</h2>
+    <p>Erythra connects donors and recipients through smart AI-powered matchmaking, live tracking, and emergency response features — all while ensuring trust and transparency with blockchain technology.</p>
+    <button class="btn" onclick="scrollToFeatures()">Explore Features</button>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>🏥 Smart Matchmaking</h3>
+      <p>Instantly connect donors and recipients based on blood type and location.</p>
+    </div>
+    <div class="feature">
+      <h3>📶 Live Donor Tracking</h3>
+      <p>View donor locations in real-time for better coordination during emergencies.</p>
+    </div>
+    <div class="feature">
+      <h3>🩹 Blockchain Records</h3>
+      <p>Maintain secure, tamper-proof donation records accessible to all stakeholders.</p>
+    </div>
+    <div class="feature">
+      <h3>🌐 Multilingual Support</h3>
+      <p>Break barriers with regional language access and rural-friendly UI.</p>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-container">
+      <h2>About Erythra</h2>
+      <p>Erythra is a revolutionary platform that aims to transform the way blood donation is perceived and executed in emergency and routine healthcare. It uses technology not just for connection, but for empathy, impact, and life-saving coordination.</p>
+      <p>Through AI-driven matchmaking, live location tracking, blockchain transparency, and inclusive design, we bring together donors, recipients, hospitals, and blood banks into a seamless ecosystem. Our app ensures that no one is left behind, regardless of language, region, or resources.</p>
+      <p>Whether you're a frequent donor, a hospital staff member, or someone in urgent need — Erythra is built for you, with you in mind. We believe every drop counts, and with Erythra, every drop finds its match.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>For collaborations, volunteering, or inquiries, reach out to <a href="mailto:contact@erythra.org">contact@erythra.org</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Erythra Team | Built with ❤️ for humanity</p>
+  </footer>
+
+  <script>
+    function scrollToFeatures() {
+      document.getElementById('features').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+name: erythra_app
+description: Erythra - Smart blood donation Flutter app (MVP)
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core + services
+  firebase_core: ^2.16.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.9.0
+  firebase_messaging: ^14.5.0
+
+  # State management
+  provider: ^6.0.5
+
+  # Location & maps
+  geolocator: ^9.1.0
+  google_maps_flutter: ^2.4.6
+
+  # Utilities
+  http: ^1.0.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
